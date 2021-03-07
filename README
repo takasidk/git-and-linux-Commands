@@ -1,6 +1,6 @@
 Starting of repo:
        sudo apt-get install git
-       git init      //intialises git functionality for ur local folder
+       `git init`     //intialises git functionality for ur local folder
        git add .     //adds ur files to the for staging
        git commit -m "comments"    //commit changes
        git remote add origin <http link of ur repo on github>  // adding ur ref repo
