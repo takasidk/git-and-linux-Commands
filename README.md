@@ -1,7 +1,7 @@
 
-#Git Concepts\
+# Git Concepts\
 with examples and references I used during projects\
-##Starting of repo:\
+## Starting of repo:\
        `sudo apt-get install git`\
       `git init`     //intialises git functionality for ur local folder\
        `git add .`    //adds ur files to the for staging\
@@ -11,7 +11,7 @@ with examples and references I used during projects\
        `git help`\
        `git status `   // displays status of ur files of unchanged/changed files stagged files\
 
-##Merging\
+## Merging\
        merging refer- [here](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)\
        merge error :unrelated history--\
        fixing it up example: merging Implementation_Data_Structures-branch with our master here\
@@ -22,7 +22,7 @@ with examples and references I used during projects\
               ~~`git pull origin master --allow-unrelated-histories`~~ // error\
               ~~`git merge Implementation_Data_Structures`~~//error\
               `git merge --allow-unrelated-histories master \Implementation_Data_Structures` **correct way**\
-##Branching\
+## Branching\
       shows our branches= `git branch` \
       checksout to the branch specified= `git checkout <your branch name>`\
       create new branch and checkout= `git checkout -b <branch name>`\
