@@ -21,7 +21,7 @@ fixing it up example: merging Implementation_Data_Structures-branch with our mas
 ~~`git merge Implementation_Data_Structures`~~ // error\
 ~~`git pull origin master --allow-unrelated-histories`~~ // error\
 ~~`git merge Implementation_Data_Structures`~~//error\
-`git merge --allow-unrelated-histories master \Implementation_Data_Structures` **correct way**\
+`git merge --allow-unrelated-histories master \Implementation_Data_Structures` **correct way**
 ##### Branching:
 shows our branches= `git branch` \
 checksout to the branch specified= `git checkout <your branch name>`\
@@ -29,4 +29,5 @@ create new branch and checkout= `git checkout -b <branch name>`\
 shows branch origined data= `git branch -vv`\
 deleting your branch= `git branch -d <branch name>` //first checkout to your master\
 force deleting branch=`git branch -D <branch name>` //checkout to master first\
+**Note:** *<> mentioned symbols will not be present in the code*
       
