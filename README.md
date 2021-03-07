@@ -29,5 +29,10 @@ create new branch and checkout= `git checkout -b <branch name>`\
 shows branch origined data= `git branch -vv`\
 deleting your branch= `git branch -d <branch name>` //first checkout to your master\
 force deleting branch=`git branch -D <branch name>` //checkout to master first\
-**Note:** *<> mentioned symbols will not be present in the code*
-      
+
+
+
+
+ **Note:** *<> mentioned symbols will not be present in the code*\
+ *markdown/md tutorial* refer-[here](https://commonmark.org/help/tutorial/index.html)
+    
