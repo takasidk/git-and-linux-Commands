@@ -1,1 +1,11 @@
 changestestProject
+merging refer-https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+merge error :unrelated history--
+setting it up example
+       git checkout Implementation_Data_Structures
+  407  git commit -a -m "fixing error"
+  408  git checkout master
+  409  git merge Implementation_Data_Structures // error
+  410  git pull origin master --allow-unrelated-histories // error
+  411  git merge Implementation_Data_Structures //error
+  412  git merge --allow-unrelated-histories master Implementation_Data_Structures //correct way
