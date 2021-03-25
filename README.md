@@ -35,4 +35,4 @@ force deleting branch=`git branch -D <branch name>` checkout to master first\
 
  **Note:** *<> mentioned symbols will not be present in the code*\
  *markdown/md tutorial* refer-[here](https://commonmark.org/help/tutorial/index.html)
-    
+     
