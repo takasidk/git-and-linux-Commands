@@ -1,6 +1,6 @@
 
 # Git Concepts
-with examples and references I used during projects\
+With examples and references I used during projects\
 ##### Starting of repo:
 `sudo apt-get install git`\
 `git init`     intialises git functionality for ur local folder\
