@@ -46,6 +46,6 @@ This is a daemon that runs in the background and check for system updates automa
  **Note:** *<> mentioned symbols will not be present in the code*\
  *markdown/md tutorial* refer-[here](https://commonmark.org/help/tutorial/index.html)
       
-   
+    
      
     
