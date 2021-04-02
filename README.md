@@ -1,5 +1,5 @@
 
-# Git Concepts
+# Git Concepts and Linux Commands
 With examples and references I used during projects\
 ##### Starting of repo:
 `sudo apt-get install git`\
@@ -30,7 +30,7 @@ shows branch origined data= `git branch -vv`\
 deleting your branch= `git branch -d <branch name>` first checkout to your master\
 force deleting branch=`git branch -D <branch name>` checkout to master first\
 
-##### Updating apts:
+##### Updating apts(linux):
 `sudo apt update`    Fetches the list of available updates\
 `sudo apt upgrade`   Installs some updates; does not remove packages\
 `sudo apt full-upgrade`     Installs updates; may also remove some packages, if needed\
@@ -41,7 +41,7 @@ When updating u can get errors:\
 If you see that apt is being used by a program like apt.systemd.daily update,
 This is a daemon that runs in the background and check for system updates automatically when you start your system.
 
-#### Deleting complete application
+#### Deleting complete application(linux)
 `dpkg -l | grep mysql`      Lists all packages installed with name mysql\
 `sudo apt-get purge mysql-client-core-8.0 mysql-server-8.0 mysql-server-core-8.0 python3-pymysql `       Will uninstall all those packages mentioned in command\
 `sudo apt-get autoremove`   removes/deletes all files which are of no use and uninstalled\
