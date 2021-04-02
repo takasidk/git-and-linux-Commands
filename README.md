@@ -45,7 +45,7 @@ This is a daemon that runs in the background and check for system updates automa
 `dpkg -l | grep mysql`      Lists all packages installed with name mysql\
 `sudo apt-get purge mysql-client-core-8.0 mysql-server-8.0 mysql-server-core-8.0 python3-pymysql `       Will uninstall all those packages mentioned in command\
 `sudo apt-get autoremove`   removes/deletes all files which are of no use and uninstalled\
-`apt-get autoclean`  u can use this clean any unwanted files
+`apt-get autoclean`  u can use this to clean any unwanted files
 
 
  **Note:** *<> mentioned symbols will not be present in the code*\
