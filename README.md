@@ -29,7 +29,7 @@ create new branch and checkout= `git checkout -b <branch name>`\
 shows branch origined data= `git branch -vv`\
 deleting your branch= `git branch -d <branch name>` first checkout to your master\
 force deleting branch=`git branch -D <branch name>` checkout to master first\
-
+ 
 ##### Updating apts(linux):
 `sudo apt update`    Fetches the list of available updates\
 `sudo apt upgrade`   Installs some updates; does not remove packages\
