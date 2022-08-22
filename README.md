@@ -41,12 +41,19 @@ When updating u can get errors:\
 If you see that apt is being used by a program like apt.systemd.daily update,
 This is a daemon that runs in the background and check for system updates automatically when you start your system.
 
-#### Deleting complete application(linux)
+##### Deleting complete application(linux)
 `dpkg -l | grep mysql`      Lists all packages installed with name mysql\
 `sudo apt-get purge mysql-client-core-8.0 mysql-server-8.0 mysql-server-core-8.0 python3-pymysql `       Will uninstall all those packages mentioned in command\
 `sudo apt-get autoremove`   removes/deletes all files which are of no use and uninstalled\
 `apt-get autoclean`  u can use this to clean any unwanted files
 
+##### Deleting sensitive info from github
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository \
+https://stackoverflow.com/questions/872565/remove-sensitive-files-and-their-commits-from-git-history
+
+`git filter-branch --force --index-filter "git rm --cached --ignore-unmatch PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA" --prune-empty --tag-name-filter cat -- --all`
+`git push --force --verbose --dry-run`
+`git push --force`
 
  **Note:** *<> mentioned symbols will not be present in the code*\
  *markdown/md tutorial* refer-[here](https://commonmark.org/help/tutorial/index.html)
